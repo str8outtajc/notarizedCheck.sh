@@ -4,7 +4,7 @@
 Finds apps and KEXTs on local Mac and creates a CSV with notarization status for each found item.  
 
 ### Warnings
-This tool is in no way shape or form designed to be run in masse accross your Mac fleet.  This is only designed to be run locally on a periodic basis to find out which apps and KEXTs are notarized.
+This tool is in no way shape or form designed to be run en masse accross your Mac fleet.  This is only designed to be run locally on a periodic basis to find out which apps and KEXTs are notarized.
 
 ### Credit
 Credit to numerous fellow mac admins who posted on slack/twitter/etc info on `stapler` command 

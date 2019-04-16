@@ -6,7 +6,6 @@ if ! hash "$(which stapler)" > /dev/null 2>&1
 fi
 
 targetCSV=$(mktemp $HOME/Desktop/notarized.XXXX)
-clear
 echo -e "\nLooking for Applications and KEXTs"
 echo -e "CSV will be opened upon completion.\n"
 printf "Name,Notarized,Kind,Path" >> ${targetCSV}

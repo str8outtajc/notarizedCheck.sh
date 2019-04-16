@@ -16,5 +16,5 @@ Credit to numerous fellow mac admins who posted on slack/twitter/etc info on `st
 - CSV will open when complete.
 
 ### Editing Script  
-- If you want the script to search your entire Mac - simply remove the `onlyin` arguments in the `mdfind` command inside the `for foundItem in` loop  
-- Or narrow down or broaden your search with less or more `onlyin` arguments
+- If you want the script to search your entire Mac - simply remove the `-onlyin` arguments in the `mdfind` command inside the `for foundItem in` loop  
+- Or narrow down or broaden your search with less or more `-onlyin` arguments

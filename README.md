@@ -12,7 +12,8 @@ Credit to numerous fellow mac admins who posted on slack/twitter/etc info on `st
 ### Usage
 - Be sure to have latest XCode with command line tools installed  
 - Save script locally  
-- `chmod 755 /path/to/script`
+- `chmod 755 /path/to/script`  
+- Run script - `/path/to/script`  
 - CSV will open when complete.
 
 ### Editing Script  

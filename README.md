@@ -1,0 +1,1 @@
+# notarizedCheck.sh

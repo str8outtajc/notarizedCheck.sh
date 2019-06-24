@@ -11,7 +11,6 @@ if ! hash "$(which codesign)" > /dev/null 2>&1
 fi
 
 targetCSV=$(mktemp $HOME/Desktop/notarized.XXXX)
-clear
 echo -e "\nLooking for Applications and KEXTs"
 echo -e "CSV will be opened upon completion.\n"
 printf "Name,Notarized,Codesigned,Codesign Fail Reason,Kind,Path" >> ${targetCSV}
